@@ -1,0 +1,126 @@
+*{
+	margin:0px;
+	padding:0px;
+	font-family: helvetica Neue;
+	font-weight: lighter;
+}
+
+nav{
+	position: fixed;
+	width: 200px;
+	height: 100%;
+	background-color: #05050f;
+}
+
+ul{
+	margin-top: 150px;
+	list-style: none;
+	display: block;
+}
+
+li{
+	width: 100%;
+	height: 50px;
+	border-bottom: 1px solid #323232;
+	overflow: hidden;
+}
+
+	p.menu{
+		position: relative;
+		padding: 16px;
+		padding-right: 25px;
+		float: right;
+		color: white;
+		opacity: .6;
+		font-size: 1.2em;
+	}
+
+div.barra{
+	position: absolute;
+	height: 50px;
+	width: 0px;
+	background-color: #aaa;
+  opacity: .1;
+	-webkit-transition: width.2s;
+}
+
+li:hover div.barra{
+	width: 200px;
+}
+
+body{
+	background-color:  #0a0b12;
+
+}
+
+
+thead{
+   	background-color: #0a0b12;
+
+		color: white;
+
+
+}
+
+tr th{
+	padding: 20px;
+
+
+}
+
+
+tr:hover td{
+	background-color: #142939;
+	color: white;
+
+}
+
+table{
+	color: white;
+
+	font-size: .9em;
+	background-color: #0a0b12;
+	border-collapse: collapse;
+	position: relative;
+	top: 40px;
+
+
+}
+
+
+tbody{
+
+	color: white;
+}
+
+h1,h2{
+	text-align: center;
+	color: White;
+  font-size: 4em;
+	font-weight: 1000;
+
+	margin: 0 auto;
+	position: relative;
+	top: 40px;
+}
+
+form{
+	margin: 0 200px;
+	width: 50%;
+	max-width: 500px;
+	padding: 30px;
+	position: relative;
+	top: 50px;
+}
+
+
+label{
+	color: white;
+}
+
+div.container{
+ width: 100%;
+ max-width: 900px;
+ margin: 0 300px;
+
+}
